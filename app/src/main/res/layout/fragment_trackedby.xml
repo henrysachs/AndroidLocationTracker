@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:id="@+id/trackedByFragment">
+
+    <fragment
+        android:id="@+id/userListFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        class="com.larinet.veikkokrypczyk.myfamilyandfriends.TrackedBy.UserListFragment"
+        tools:layout="@layout/fragment_user_list">
+    </fragment>
+    <fragment
+        android:id="@+id/locationListFragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        class="com.larinet.veikkokrypczyk.myfamilyandfriends.TrackedBy.LocationListFragment"
+        tools:layout="@layout/fragment_location_list">
+    </fragment>
+
+</LinearLayout>
