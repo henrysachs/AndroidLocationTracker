@@ -9,7 +9,6 @@
 /captures
 .externalNativeBuild
 /app/notes/
-/app/src/main/res/values/google_maps_api.xml
 /app/google-services.json
 
 # Built application files
